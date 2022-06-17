@@ -12,6 +12,9 @@ Final Project for the Indicium Academy Analytics Engineer course. Full Data Ware
 * Data Warehouse:
     - Google BigQuery
 
+* Visualization:
+    - Google Data Studio
+
 * Orchestration:
     - Apache Airflow
 
