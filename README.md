@@ -9,6 +9,7 @@ These are the business questions to be answered using Dashboards in a DataViz To
     - Dimensions -> [AssociatedTable]
 
 1 - Number of Orders, Purchase Amounts and Negotiated Value, by:
+
     - Product;
     - Card Type;
     - Sale Motive;
@@ -18,11 +19,13 @@ These are the business questions to be answered using Dashboards in a DataViz To
     - City, State, Country.
 
 2 - Which products have the the highest average ticket sale by:
+
     - Month;
     - Year;
     - City, State, Country.
 
 3 - What are the 10 best clients in Total Negotiated Value, by:
+
     - Product;
     - Card Type;
     - Sale Motive;
@@ -31,6 +34,7 @@ These are the business questions to be answered using Dashboards in a DataViz To
     - City, State, Country.
 
 4 - What are the 5 best cities in Total Negotiated Value, by:
+
     - Product;
     - Card Type;
     - Sale Motive;
@@ -40,6 +44,7 @@ These are the business questions to be answered using Dashboards in a DataViz To
     - City, State, Country.
 
 5 - What is the Number od Orders, Purchased Amount and Total Negotiated Value, by:
+
     - Month;
     - Year.
 
