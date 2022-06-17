@@ -1,6 +1,20 @@
 # AdventureWorks_DW
 Final Project for the Indicium Academy Analytics Engineer course. Full Data Warehouse ELT for the Demo Adventure Works Database
 
+## Data Stack:
+
+* Extract and Load (EL):
+    - Airbyte
+
+* Transform (T):
+    - DBT
+
+* Data Warehouse:
+    - Google BigQuery
+
+* Orchestration:
+    - Apache Airflow
+
 
 ## Business Questions:
 These are the business questions to be answered using Dashboards in a DataViz Tool.
