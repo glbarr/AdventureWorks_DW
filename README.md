@@ -1,4 +1,4 @@
-# AdventureWorks_DW
+# AdventureWorks_DWi9
 Final Project for the Indicium Academy Analytics Engineer course. Full Data Warehouse ELT for the Demo Adventure Works Database
 
 ## Data Stack:
@@ -27,42 +27,42 @@ These are the business questions to be answered using Dashboards in a DataViz To
 
 1 - Number of Orders, Purchase Amounts and Negotiated Value, by:
 
-    - Product;
-    - Card Type;
-    - Sale Motive;
-    - Date of Sale;
-    - Client;
-    - Status;
-    - City, State, Country.
+    - Product; -> [production.product, sales.salesorderdetail]
+    - Card Type; -> [sales.creditcard]
+    - Sale reason; -> [sales.salesreason]
+    - Date of Sale; -> [sales.salesorderheader]   
+    - Client; -> [person.person, sales.customer]
+    - Status; -> [sales.salesorderheader]
+    - City, State, Country. -> [person.address, person.stateprovince, person.countryregion]
 
 2 - Which products have the the highest average ticket sale by:
 
-    - Month;
-    - Year;
-    - City, State, Country.
+    - Month; -> [sale.salesorderheader]
+    - Year; -> [sale.salesorderheader]
+    - City, State, Country. -> [person.address, person.stateprovince, person.countryregion]
 
 3 - What are the 10 best clients in Total Negotiated Value, by:
 
-    - Product;
-    - Card Type;
-    - Sale Motive;
-    - Date of Sale;
-    - Status;
-    - City, State, Country.
+    - Product; -> [production.product, sales.salesorderdetail]
+    - Card Type; -> [sales.creditcard]
+    - Sale reason; -> [sales.salesreason]
+    - Date of Sale; -> [sales.salesorderheader]
+    - Status; -> [sales.salesorderheader]
+    - City, State, Country. -> [person.address, person.stateprovince, person.countryregion]
 
 4 - What are the 5 best cities in Total Negotiated Value, by:
 
-    - Product;
-    - Card Type;
-    - Sale Motive;
-    - Date of Sale;
-    - Client;
-    - Status;
-    - City, State, Country.
+    - Product; -> [production.product, sales.salesorderdetail]
+    - Card Type; -> [sales.creditcard]
+    - Sale reason; -> [sales.salesreason]
+    - Date of Sale; -> [sales.salesorderheader]
+    - Client; -> [person.person, sales.customer]
+    - Status; -> [sales.salesorderheader]
+    - City, State, Country. -> [person.address, person.stateprovince, person.countryregion]
 
 5 - What is the Number od Orders, Purchased Amount and Total Negotiated Value, by:
 
-    - Month;
-    - Year.
+    - Month; -> [sales.salesorderheader]
+    - Year. -> [sales.salesorderheader]
 
-6 - What is the product with the highest Purchased Amount for the motive: "Promotion"
+6 - What is the product with the highest Purchased Amount for the reason: "Promotion"
