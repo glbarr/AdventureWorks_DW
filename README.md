@@ -43,6 +43,8 @@ These are the business questions to be answered using Dashboards in a DataViz To
 
 3 - What are the 10 best clients in Total Negotiated Value, by:
 
+    Clients -> [person.person, sales.customer]
+
     - Product; -> [production.product, sales.salesorderdetail]
     - Card Type; -> [sales.creditcard]
     - Sale reason; -> [sales.salesreason]
