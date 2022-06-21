@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T19:10:46.391Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36" etag="ZCPVxFsv2eHVz2IUwHem" version="20.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-06-21T19:11:43.242Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36" etag="9NGUh_yjI6jVsDOyW6kS" version="20.0.2" type="github" pages="6">
   <diagram id="7i2YXdxyDP5vVvok3a8F" name="dw_model">
     <mxGraphModel dx="1874" dy="840" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="f673il35fjjtFXYGMTFK" name="sales_fact_model">
-    <mxGraphModel dx="1422" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1390" dy="806" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,7 +86,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="product_denormalization" id="2ca16b54-16f6-2749-3443-fa8db7711227">
-    <mxGraphModel dx="1422" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1390" dy="806" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -141,11 +141,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XpHY0wRuotrye-SUJkQV" name="address_denormalization">
-    <mxGraphModel dx="1422" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1390" dy="806" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="wPbMt9cMxpNVU8BOEHsN-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.005;exitY=0.575;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="7471SvFqqQG7SneJkpLM-1" target="wPbMt9cMxpNVU8BOEHsN-1">
+        <mxCell id="wPbMt9cMxpNVU8BOEHsN-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.005;exitY=0.575;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" parent="1" source="7471SvFqqQG7SneJkpLM-1" target="wPbMt9cMxpNVU8BOEHsN-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="340" as="targetPoint" />
             <Array as="points">
@@ -154,10 +154,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7471SvFqqQG7SneJkpLM-1" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;person.address&lt;/div&gt;&lt;table border=&quot;1&quot; style=&quot;width: 100%; font-size: 1em; border: 1px solid rgb(3, 3, 3); border-collapse: collapse;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;adressid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;addressline1&lt;br&gt;addressline2&lt;br&gt;city&lt;br&gt;stateprovinceid&lt;br&gt;postalcode&lt;br&gt;spatiallocation&lt;br&gt;rowguid&lt;br&gt;modifieddate&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#141414;" vertex="1" parent="1">
+        <mxCell id="7471SvFqqQG7SneJkpLM-1" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;person.address&lt;/div&gt;&lt;table border=&quot;1&quot; style=&quot;width: 100%; font-size: 1em; border: 1px solid rgb(3, 3, 3); border-collapse: collapse;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;adressid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;addressline1&lt;br&gt;addressline2&lt;br&gt;city&lt;br&gt;stateprovinceid&lt;br&gt;postalcode&lt;br&gt;spatiallocation&lt;br&gt;rowguid&lt;br&gt;modifieddate&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#141414;" parent="1" vertex="1">
           <mxGeometry x="10" y="120" width="220" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="wPbMt9cMxpNVU8BOEHsN-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.009;entryY=0.414;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wPbMt9cMxpNVU8BOEHsN-1" target="wPbMt9cMxpNVU8BOEHsN-3">
+        <mxCell id="wPbMt9cMxpNVU8BOEHsN-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.009;entryY=0.414;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="wPbMt9cMxpNVU8BOEHsN-1" target="wPbMt9cMxpNVU8BOEHsN-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="250" y="510" as="targetPoint" />
             <Array as="points">
@@ -167,7 +167,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wPbMt9cMxpNVU8BOEHsN-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1.005;entryY=0.193;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wPbMt9cMxpNVU8BOEHsN-1" target="wPbMt9cMxpNVU8BOEHsN-6">
+        <mxCell id="wPbMt9cMxpNVU8BOEHsN-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1.005;entryY=0.193;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="wPbMt9cMxpNVU8BOEHsN-1" target="wPbMt9cMxpNVU8BOEHsN-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="270" y="415" />
@@ -175,34 +175,34 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wPbMt9cMxpNVU8BOEHsN-1" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;person.stateprovince&lt;/div&gt;&lt;table border=&quot;1&quot; style=&quot;width: 100%; font-size: 1em; border: 1px solid rgb(3, 3, 3); border-collapse: collapse;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;stateprovinceid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;br&gt;&lt;br&gt;&lt;br&gt;FK&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;stateprovincecode&lt;br&gt;countryregioncode&lt;br&gt;isonlystateprovinceflag&lt;br&gt;name&lt;br&gt;territoryid&lt;br&gt;rowguid&lt;br&gt;modifieddate&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#141414;" vertex="1" parent="1">
+        <mxCell id="wPbMt9cMxpNVU8BOEHsN-1" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;person.stateprovince&lt;/div&gt;&lt;table border=&quot;1&quot; style=&quot;width: 100%; font-size: 1em; border: 1px solid rgb(3, 3, 3); border-collapse: collapse;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;stateprovinceid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;br&gt;&lt;br&gt;&lt;br&gt;FK&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;stateprovincecode&lt;br&gt;countryregioncode&lt;br&gt;isonlystateprovinceflag&lt;br&gt;name&lt;br&gt;territoryid&lt;br&gt;rowguid&lt;br&gt;modifieddate&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#141414;" parent="1" vertex="1">
           <mxGeometry x="10" y="310" width="220" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="wPbMt9cMxpNVU8BOEHsN-3" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;person.countryregion&lt;/div&gt;&lt;table border=&quot;1&quot; style=&quot;width: 100%; font-size: 1em; border: 1px solid rgb(3, 3, 3); border-collapse: collapse;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;countryregioncode&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;name&lt;br&gt;modifieddate&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#141414;" vertex="1" parent="1">
+        <mxCell id="wPbMt9cMxpNVU8BOEHsN-3" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;person.countryregion&lt;/div&gt;&lt;table border=&quot;1&quot; style=&quot;width: 100%; font-size: 1em; border: 1px solid rgb(3, 3, 3); border-collapse: collapse;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;countryregioncode&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;name&lt;br&gt;modifieddate&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#141414;" parent="1" vertex="1">
           <mxGeometry x="10" y="470" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="wPbMt9cMxpNVU8BOEHsN-6" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;sales.salesterritory&lt;/div&gt;&lt;table border=&quot;1&quot; style=&quot;width: 100%; font-size: 1em; border: 1px solid rgb(3, 3, 3); border-collapse: collapse;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;territoryid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;name&lt;br&gt;countryregioncode&lt;br&gt;group&lt;br&gt;salesytd&lt;br&gt;saleslastyear&lt;br&gt;costytd&lt;br&gt;costlastyear&lt;br&gt;rowguid&lt;br&gt;modifieddate&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#141414;" vertex="1" parent="1">
+        <mxCell id="wPbMt9cMxpNVU8BOEHsN-6" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;sales.salesterritory&lt;/div&gt;&lt;table border=&quot;1&quot; style=&quot;width: 100%; font-size: 1em; border: 1px solid rgb(3, 3, 3); border-collapse: collapse;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;territoryid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;name&lt;br&gt;countryregioncode&lt;br&gt;group&lt;br&gt;salesytd&lt;br&gt;saleslastyear&lt;br&gt;costytd&lt;br&gt;costlastyear&lt;br&gt;rowguid&lt;br&gt;modifieddate&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#141414;" parent="1" vertex="1">
           <mxGeometry x="10" y="560" width="220" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="b7YPUiHcs0L8crAmLPJv-1" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=56;endSize=21.67;width=44;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+        <mxCell id="b7YPUiHcs0L8crAmLPJv-1" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=56;endSize=21.67;width=44;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="400" as="sourcePoint" />
             <mxPoint x="490" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b7YPUiHcs0L8crAmLPJv-2" value="Denormalization" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;labelBackgroundColor=none;" vertex="1" connectable="0" parent="b7YPUiHcs0L8crAmLPJv-1">
+        <mxCell id="b7YPUiHcs0L8crAmLPJv-2" value="Denormalization" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;labelBackgroundColor=none;" parent="b7YPUiHcs0L8crAmLPJv-1" vertex="1" connectable="0">
           <mxGeometry x="-0.3294" y="-7" relative="1" as="geometry">
             <mxPoint x="13" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K26j6cKm-dryQ3FpSVlG-1" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px; font-size: 14px;&quot;&gt;address_dim&lt;/div&gt;&lt;table border=&quot;1&quot; style=&quot;width: 100%; font-size: 14px; border: 1px solid rgb(3, 3, 3); border-collapse: collapse;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody style=&quot;font-size: 14px;&quot;&gt;&lt;tr style=&quot;font-size: 14px;&quot;&gt;&lt;td style=&quot;font-size: 14px;&quot;&gt;PK&lt;/td&gt;&lt;td style=&quot;font-size: 14px;&quot;&gt;addressid&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;font-size: 14px;&quot;&gt;&lt;td style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;addressline1&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;addressline2&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;city&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;stateprovince&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;countryregion&lt;br style=&quot;font-size: 14px;&quot;&gt;salesterritory&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;postalcode&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;spatiallocation&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;rowguid&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;modifieddate&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="K26j6cKm-dryQ3FpSVlG-1" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px; font-size: 14px;&quot;&gt;address_dim&lt;/div&gt;&lt;table border=&quot;1&quot; style=&quot;width: 100%; font-size: 14px; border: 1px solid rgb(3, 3, 3); border-collapse: collapse;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody style=&quot;font-size: 14px;&quot;&gt;&lt;tr style=&quot;font-size: 14px;&quot;&gt;&lt;td style=&quot;font-size: 14px;&quot;&gt;PK&lt;/td&gt;&lt;td style=&quot;font-size: 14px;&quot;&gt;addressid&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;font-size: 14px;&quot;&gt;&lt;td style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;addressline1&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;addressline2&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;city&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;stateprovince&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;countryregion&lt;br style=&quot;font-size: 14px;&quot;&gt;salesterritory&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;postalcode&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;spatiallocation&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;rowguid&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;modifieddate&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="530" y="300" width="250" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="XXq1iumz1aTun882dGG9" name="customer_denormalization">
-    <mxGraphModel dx="1422" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1390" dy="806" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -264,7 +264,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WVhODi9M8_-xSsXYLujf" name="employee_denormalization">
-    <mxGraphModel dx="1422" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1390" dy="806" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
