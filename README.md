@@ -4,7 +4,7 @@ Final Project for the Indicium Academy Analytics Engineer course. Full Data Ware
 ## Data Stack:
 
 * Extract and Load (EL):
-    - Airbyte
+    - Kondado
 
 * Transform (T):
     - DBT
