@@ -1,4 +1,4 @@
-# AdventureWorks_DWi9
+# AdventureWorks_DW
 Final Project for the Indicium Academy Analytics Engineer course. Full Data Warehouse ELT for the Demo Adventure Works Database
 
 ## Data Stack:
@@ -23,7 +23,8 @@ Final Project for the Indicium Academy Analytics Engineer course. Full Data Ware
 These are the business questions to be answered using Dashboards in a DataViz Tool.
 
 * Question:
-    - Dimensions -> [AssociatedTable]
+    - Dimensions -> [AssociatedTables]
+    
 
 1 - Number of Orders, Purchase Amounts and Negotiated Value, by:
 
@@ -68,3 +69,5 @@ These are the business questions to be answered using Dashboards in a DataViz To
     - Year. -> [sales.salesorderheader]
 
 6 - What is the product with the highest Purchased Amount for the reason: "Promotion"
+
+    [sales.salesreason]
